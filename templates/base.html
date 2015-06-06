@@ -1,0 +1,28 @@
+$def with (page, title)
+<html>
+<head>
+
+<style>
+	body {
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-top: 10%;
+	}
+	div.content {
+		min-width: 40%;
+		text-align: center;
+	}
+</style>
+<title>
+$if title: $:title\
+</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head><body>
+<div class="content">
+<i class="fa fa-cog fa-spin fa-5x"></i> <br />
+
+<h1>Sample page</h1>
+$:page
+</div>
+</body></html>
