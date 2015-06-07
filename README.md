@@ -10,7 +10,7 @@ python start.py
 
 It can also be used to build a docker image:
 ```bash
-docker build -t sts https://github.com/JurrianFahner/SimpleTestServer
+docker build -t sts https://github.com/JurrianFahner/SimpleTestServer.git
 docker run -d -p 8080:8080 sts
 ```
 If hostname is not set on docker run, then the docker id will be shown as hostname of that specfic container.
