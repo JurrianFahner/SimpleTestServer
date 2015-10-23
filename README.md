@@ -1,3 +1,4 @@
+![build travis cli](https://api.travis-ci.org/JurrianFahner/SimpleTestServer.svg?branch=master)
 # SimpleTestServer
 This repository contains a simple test server written in python for testing purposes. This server runs on port 8080 by default.
 
