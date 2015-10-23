@@ -1,4 +1,4 @@
-nguage: python
+language: python
 python:
   - "2.6"
   - "2.7"
@@ -7,6 +7,8 @@ python:
   - "3.4"
   - "3.5"
 # command to install dependencies
-install: "pip install -r requirements.txt"
+install: 
+  - "pip update"
+  - "pip install -r requirements.txt"
 # command to run tests
 script: nosetests
