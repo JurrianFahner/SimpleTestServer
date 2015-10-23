@@ -1,8 +1,6 @@
 # SimpleTestServer
 This repository contains a simple test server written in python for testing purposes. This server runs on port 8080 by default.
 
-[Web.py](http://webpy.org) is embedded, to avoid broken repositories. 
-
 To use this simple server on a linux environment it is as easy as (after cloning this repository):
 ```bash
 python start.py
