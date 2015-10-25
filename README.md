@@ -13,3 +13,8 @@ docker build -t sts https://github.com/JurrianFahner/SimpleTestServer.git
 docker run -d -p 8080:8080 sts
 ```
 If hostname is not set on docker run, then the docker id will be shown as hostname of that specfic container.
+
+The docker image can also be pulled from dockerhub, by issuing the following command:
+```bash
+docker run -p 8080:8080 --hostname hostname -d ensignprojects/sts
+```
